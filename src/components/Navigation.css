@@ -1,0 +1,9 @@
+.navFix {
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	padding-right: 20px;
+	margin: 0;
+	font-size: 21px;
+	text-decoration: underline;
+}
