@@ -1,10 +1,10 @@
 import React from 'react'
 import './Navigation.css';
 
-const Navigation = () => {
+const Navigation = ({ onRouteChange }) => {
 	return (
 		<nav className='navFix'>
-			<p className='link dim pointer textShadow'>Sign Out</p>
+			<p onClick={() => onRouteChange('signin')} className='link dim pointer textShadow'>Sign Out</p>
 		</nav>
 	);
 }

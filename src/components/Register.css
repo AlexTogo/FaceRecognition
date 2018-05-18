@@ -1,0 +1,106 @@
+.Register-container {
+	position: absolute;
+	width: 350px;
+	height: 300px;
+	z-index: 15;
+	top: 40%;
+	left: 50%;
+	margin: -100px 0 0 -150px;
+	/* background: red; */
+}
+
+.Register-container h1 {
+	font-size: 40px;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-put;
+	font-weight: 200;
+	color: white;
+}
+
+.Register-form input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: 0;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 3px;
+	padding: 10px 15px;
+	margin: 0 auto 10px auto;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	transition-duration: 0.25s;
+	font-weight: 300;
+	width: 93%;
+}
+
+.Register-form input:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.Register-form input:focus {
+	background-color: white;
+	color: #53e3a6;
+	width: 100%;
+}
+
+.Register-form button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: 0;
+	background-color: white;
+	border: 0;
+	padding: 10px 15px;
+	color: #53e3a6;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 18px;
+	transition-duration: 0.25s;
+	width: 93%;
+}
+
+.Register-form button:hover {
+	background-color: #e7ebf0;
+}
+
+.Register-container ::-webkit-input-placeholder {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-weight: 300;
+}
+
+.Register-container :-moz-placeholder {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	opacity: 1;
+	font-weight: 300;
+}
+
+.Register-container ::-moz-placeholder {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	opacity: 1;
+	font-weight: 300;
+}
+
+.Register-container :-ms-input-placeholder {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-weight: 300;
+}
+
+.register {
+	color: white;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.register:hover {
+	transition-duration: 0.45s;
+	color: gray;
+	font-weight: 300;
+	cursor: pointer;
+}

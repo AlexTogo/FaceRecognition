@@ -2,12 +2,12 @@ import React from 'react'
 
 const Rank = () => {
 	return (
-		<div>
+		<div className='rank-container'>
 			<div className="balck f2">
 				{'#5'}
 			</div>
 			<div className="balck f3">
-				{'Alex, your current rank is ... '}
+				{'this is, your current rank Alex. '}
 			</div>
 		</div>
 	)
