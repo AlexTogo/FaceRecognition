@@ -17,7 +17,7 @@
 	color: white;
 }
 
-.SignIn-form input {
+.SignIn-container input {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -36,17 +36,17 @@
 	width: 93%;
 }
 
-.SignIn-form input:hover {
+.SignIn-container input:hover {
 	background-color: rgba(255, 255, 255, 0.4);
 }
 
-.SignIn-form input:focus {
+.SignIn-container input:focus {
 	background-color: white;
 	color: #53e3a6;
 	width: 100%;
 }
 
-.SignIn-form button {
+.SignIn-container button {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -62,7 +62,7 @@
 	width: 93%;
 }
 
-.SignIn-form button:hover {
+.SignIn-container button:hover {
 	background-color: #e7ebf0;
 }
 
