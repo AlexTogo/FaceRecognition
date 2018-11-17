@@ -17,7 +17,7 @@
 	color: white;
 }
 
-.Register-form input {
+.Register-container input {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -36,17 +36,17 @@
 	width: 93%;
 }
 
-.Register-form input:hover {
+.Register-container input:hover {
 	background-color: rgba(255, 255, 255, 0.4);
 }
 
-.Register-form input:focus {
+.Register-container input:focus {
 	background-color: white;
 	color: #53e3a6;
 	width: 100%;
 }
 
-.Register-form button {
+.Register-container button {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -62,7 +62,7 @@
 	width: 93%;
 }
 
-.Register-form button:hover {
+.Register-container button:hover {
 	background-color: #e7ebf0;
 }
 

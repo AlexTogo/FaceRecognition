@@ -29,11 +29,12 @@ class SignIn extends React.Component {
 			})
 		})
 			.then(response => response.json())
-			.then(data => {
-				if (data === 'success') {
+			.then(user => {
+				if (user.id) {
+					this.props.loadUser(user);
 					this.props.onRouteChange('home');
 				}
-			});
+			})
 	}
 
 	render() {
@@ -42,7 +43,7 @@ class SignIn extends React.Component {
 			<div className="SignIn-container textShadow" >
 				<h1>Welcome</h1>
 				{/* <form className="SignIn-form"> */}
-				<input type="text" placeholder="Username" onChange={this.onEmailChange} />
+				<input type="text" placeholder="E-mail" onChange={this.onEmailChange} />
 				<input type="password" placeholder="Password" onChange={this.onPasswordChange} />
 				<button
 					type="submit"
